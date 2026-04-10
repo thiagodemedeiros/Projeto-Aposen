@@ -12,9 +12,9 @@ export default function HomeSection1() {
             </div>
             <div className="HomeSection1_item_direita">
                 <h5>Notícias</h5>
-                <ThumbPostHorizontal titulo="Noticia 1" noticia="Descrição da notícia 1. Descrição da notícia 1.Descrição da notícia 1.Descriçãonotícia 1." />
-                <ThumbPostHorizontal titulo="Noticia 1" noticia="Descrição da notícia 1. Descrição da notícia 1.Descrição da notícia 1.Descriçãonotícia 1." />
-                <ThumbPostHorizontal titulo="Noticia 1" noticia="Descrição da notícia 1. Descrição da notícia 1.Descrição da notícia 1.Descriçãonotícia 1." />
+                <ThumbPostHorizontal titulo="Noticia 1" noticia="Descrição da notícia 1. Descrição da notícia 1.Descrição da notícia 1.Descriçãonotícia 1." link="#"/>
+                <ThumbPostHorizontal titulo="Noticia 1" noticia="Descrição da notícia 1. Descrição da notícia 1.Descrição da notícia 1.Descriçãonotícia 1." link="#"/>
+                <ThumbPostHorizontal titulo="Noticia 1" noticia="Descrição da notícia 1. Descrição da notícia 1.Descrição da notícia 1.Descriçãonotícia 1." link="#"/>
             </div>
         </div>
     </section>
