@@ -17,3 +17,13 @@
     max-width: 1200px;
     gap: 30px;
 }
+
+@media (max-width: 1000px) {
+    .HomeSection2_container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 85%;
+        gap: 40px;
+    }
+}
