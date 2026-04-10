@@ -1,5 +1,5 @@
 import SearchBar from "./SearchBar"
-import logo from "../../public/logo_aposen.png"
+import logo from "/logo_aposen.png"
 import "./styles/Header.css"
 
 export default function Header() {

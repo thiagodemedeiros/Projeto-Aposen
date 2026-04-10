@@ -1,5 +1,5 @@
 import "./styles/SearchBar.css"
-import lupa from "../../public/magnifying-glass.png"
+import lupa from "/magnifying-glass.png"
 
 export default function SearchBar() {
     return(
