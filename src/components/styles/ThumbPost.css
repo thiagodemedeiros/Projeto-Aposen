@@ -3,6 +3,7 @@
     flex-direction: row;
     align-items: start;
     width: 100%;
+    cursor: pointer;
 
     gap: 20px;
     /* border: 2px solid red; */
@@ -29,6 +30,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 
     width: 80vw;
     max-width: 300px;
