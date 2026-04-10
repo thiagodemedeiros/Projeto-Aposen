@@ -28,9 +28,10 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: end;
 
     width: 85%;
+    gap: 50px;
 
     /* border: solid 2px red; */
 

@@ -12,10 +12,10 @@ export default function Header() {
                 <a href="">Oferta 1</a>
                 <a href="">Oferta 2</a>
                 <a href="">Oferta 3</a>
-                <a href="">Oferta 4</a>
-                <a href="">Oferta 5</a>
-                <a href="">Oferta 6</a>
-                <a href="">Oferta 7</a>
+                {/* <a href="">Oferta 4</a> */}
+                {/* <a href="">Oferta 5</a> */}
+                {/* <a href="">Oferta 6</a> */}
+                {/* <a href="">Oferta 7</a> */}
             </div>
         </div>
     </header>
