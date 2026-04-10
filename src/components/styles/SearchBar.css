@@ -1,0 +1,78 @@
+.SearchBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px 0px;
+    width: 100%;
+
+    background: #FF5F14;
+    background: linear-gradient(334deg,rgba(255, 95, 20, 1) 0%, rgba(255, 136, 20, 1) 100%);
+}
+
+.SearchBar_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #F7F7F7;
+    padding: 8px 20px;
+    border-radius: 30px;
+
+    & button {
+        background-color: transparent;
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
+
+        & img {
+            margin-top: 5px;
+            height: 15px;
+        }
+    }
+
+    & input {
+        background-color: transparent;
+        border: none;
+        font-size: 14px;
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    .SearchBar {
+    padding: 10px 0px;
+    }
+
+    .SearchBar_item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        
+        background-color: #F7F7F7;
+        padding: 8px 20px;
+        border-radius: 30px;
+        
+        & button {
+            background-color: transparent;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+        
+            & img {
+                margin-top: 5px;
+                height: 15px;
+            }
+        }
+    
+        & input {
+            background-color: transparent;
+            border: none;
+            font-size: 14px;
+            margin-left: 15px;
+        }
+    }
+}
