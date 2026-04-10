@@ -1,0 +1,36 @@
+.ThumbPostVertical {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    width: 100%;
+
+    gap: 20px;
+    /* border: 2px solid red; */
+
+    & img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+}
+
+.ThumbPostVertical_texto {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+    gap: 5px;
+}
+
+@media (max-width: 600px) {
+    .ThumbPostVertical {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ThumbPostVertical_texto {
+        align-items: center;
+        text-align: center;
+    }
+}

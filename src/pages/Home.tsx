@@ -1,7 +1,9 @@
+import HomeSection1 from "./sections/home/HomeSection1"
+
 export default function Home() {
     return(
     <>
-        <h1>Home</h1>
+        <HomeSection1 />
     </>
     )
 }
