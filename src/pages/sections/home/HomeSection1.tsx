@@ -1,5 +1,5 @@
 import "./styles/HomeSection1.css"
-import { ThumbPostVertical } from "../../../components/ThumbPost"
+import { ThumbPostHorizontal } from "../../../components/ThumbPost"
 
 export default function HomeSection1() {
     return(
@@ -12,9 +12,9 @@ export default function HomeSection1() {
             </div>
             <div className="HomeSection1_item_direita">
                 <h5>Notícias</h5>
-                <ThumbPostVertical titulo="Noticia 1" noticia="Descrição da notícia 1. Descrição da notícia 1.Descrição da notícia 1.Descriçãonotícia 1." />
-                <ThumbPostVertical titulo="Noticia 1" noticia="Descrição da notícia 1. Descrição da notícia 1.Descrição da notícia 1.Descriçãonotícia 1." />
-                <ThumbPostVertical titulo="Noticia 1" noticia="Descrição da notícia 1. Descrição da notícia 1.Descrição da notícia 1.Descriçãonotícia 1." />
+                <ThumbPostHorizontal titulo="Noticia 1" noticia="Descrição da notícia 1. Descrição da notícia 1.Descrição da notícia 1.Descriçãonotícia 1." />
+                <ThumbPostHorizontal titulo="Noticia 1" noticia="Descrição da notícia 1. Descrição da notícia 1.Descrição da notícia 1.Descriçãonotícia 1." />
+                <ThumbPostHorizontal titulo="Noticia 1" noticia="Descrição da notícia 1. Descrição da notícia 1.Descrição da notícia 1.Descriçãonotícia 1." />
             </div>
         </div>
     </section>

@@ -1,0 +1,23 @@
+.HomeSection3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    margin-top: 50px;
+}
+
+.HomeSection3_texto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 1020px;
+    width: 80%;
+    gap: 50px;
+
+    /* border: 2px solid red; */
+}
