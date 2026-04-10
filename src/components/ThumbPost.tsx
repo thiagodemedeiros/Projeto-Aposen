@@ -4,30 +4,43 @@ interface ThumbPostProps {
     titulo: string;
     noticia: string;
     link: string;
+    img: string;
 }
 
-export function ThumbPostVertical({titulo, noticia, link} : ThumbPostProps) {
+export function ThumbPostVertical({titulo, noticia, link, img} : ThumbPostProps) {
     return(
         <a href={link}>
             <div className="ThumbPostVertical">
-                <img src="https://img.freepik.com/fotos-gratis/fundo-abstrato-escuro_1048-1920.jpg?semt=ais_hybrid&w=740&q=80" alt="" />
+                <img src={img} alt="" />
                 <div className="ThumbPostVertical_texto">
                     <h3>{titulo}</h3>
-                    <p>{noticia}</p>
+                    <p>
+                        {
+                            noticia.length > 200
+                            ? noticia.slice(0, 200) + '...'
+                            : noticia
+                        }
+                    </p>
                 </div>
             </div>
         </a>
     )
 }
 
-export function ThumbPostHorizontal({titulo, noticia, link} : ThumbPostProps) {
+export function ThumbPostHorizontal({titulo, noticia, link, img} : ThumbPostProps) {
     return(
         <a href={link}>
             <div className="ThumbPostHorizontal">
-                <img src="https://img.freepik.com/fotos-gratis/fundo-abstrato-escuro_1048-1920.jpg?semt=ais_hybrid&w=740&q=80" alt="" />
+                <img src={img} alt="" />
                 <div className="ThumbPostHorizontal_texto">
                     <h3>{titulo}</h3>
-                    <p>{noticia}</p>
+                    <p>
+                        {
+                            noticia.length > 50
+                            ? noticia.slice(0, 50) + '...'
+                            : noticia
+                        }
+                    </p>
                 </div>
             </div>
         </a>
