@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./styles/ThemeIcons.css"
 
 interface ThemeIconsProps {
@@ -8,9 +9,9 @@ interface ThemeIconsProps {
 export default function ThemeIcons({link, img} : ThemeIconsProps) {
     return(
         <div className="ThemeIcons">
-            <a href={link}>
+            <Link to={link}>
                 <img src={img} alt="" />
-            </a>
+            </Link>
         </div>
     )
 }

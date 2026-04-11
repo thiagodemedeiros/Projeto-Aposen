@@ -9,10 +9,10 @@ export default function HomeSection2() {
     return (
         <div className="HomeSection2">
             <div className="HomeSection2_container">
-                <ThemeIcons link="#" img={healthCare} />
-                <ThemeIcons link="#" img={dollar} />
-                <ThemeIcons link="#" img={handshake} />
-                <ThemeIcons link="#" img={balance} />
+                <ThemeIcons link="/search/type/tech" img={healthCare} />
+                <ThemeIcons link="/search/type/tech" img={dollar} />
+                <ThemeIcons link="/search/type/design" img={handshake} />
+                <ThemeIcons link="/search/type/design" img={balance} />
             </div>
         </div>
     );
