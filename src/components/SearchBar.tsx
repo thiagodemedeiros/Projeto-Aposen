@@ -1,16 +1,17 @@
 import { useState } from "react";
 import "./styles/SearchBar.css";
 import lupa from "/magnifying-glass.png";
+import { useNavigate } from "react-router-dom"
 
 export default function SearchBar() {
     const [valor, setValor] = useState("");
+    const navigate = useNavigate()
 
     function fazerBusca() {
         if (!valor.trim()) return;
-
         console.log("Buscando por:", valor);
-
-        //colocar aqui a lógica de busca, como uma chamada a uma API ou filtragem de dados
+        navigate(`/search/${valor}`)
+        setValor("");
     }
 
     function handleKeyDown(e : React.KeyboardEvent<HTMLInputElement>) {

@@ -13,7 +13,7 @@ export default function HomeSection3() {
                         key={post.id}
                         titulo={post.title}
                         noticia={post.content}
-                        link="#"
+                        link={`/post/${post.id}`}
                         img={post.img}
                     />
                 ))}

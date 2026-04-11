@@ -1,4 +1,5 @@
 import "./styles/ThumbPost.css";
+import { Link } from "react-router-dom"
 
 interface ThumbPostProps {
     titulo: string;
@@ -9,7 +10,7 @@ interface ThumbPostProps {
 
 export function ThumbPostVertical({titulo, noticia, link, img} : ThumbPostProps) {
     return(
-        <a href={link}>
+        <Link to={link}>
             <div className="ThumbPostVertical">
                 <img src={img} alt="" />
                 <div className="ThumbPostVertical_texto">
@@ -23,13 +24,13 @@ export function ThumbPostVertical({titulo, noticia, link, img} : ThumbPostProps)
                     </p>
                 </div>
             </div>
-        </a>
+        </Link>
     )
 }
 
 export function ThumbPostHorizontal({titulo, noticia, link, img} : ThumbPostProps) {
     return(
-        <a href={link}>
+        <Link to={link}>
             <div className="ThumbPostHorizontal">
                 <img src={img} alt="" />
                 <div className="ThumbPostHorizontal_texto">
@@ -43,6 +44,6 @@ export function ThumbPostHorizontal({titulo, noticia, link, img} : ThumbPostProp
                     </p>
                 </div>
             </div>
-        </a>
+        </Link>
     )
 }

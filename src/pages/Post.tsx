@@ -1,6 +1,5 @@
 import { useParams } from "react-router-dom"
 import { posts } from "../../data/Posts"
-import { useEffect } from "react"
 
 export default function Post() {
     const { id } = useParams()

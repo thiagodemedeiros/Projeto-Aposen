@@ -1,13 +1,16 @@
 import SearchBar from "./SearchBar"
 import logo from "/logo_aposen.png"
 import "./styles/Header.css"
+import { Link } from "react-router-dom"
 
 export default function Header() {
     return(
     <header className="Header">
         <SearchBar />
         <div className="Header_itens">
-            <img src={logo} alt="Logo" />
+            <Link to="/">
+                <img src={logo} alt="Logo" />
+            </Link>
             <div className="Header_itens_menu">
                 <a href="">Oferta 1</a>
                 <a href="">Oferta 2</a>
