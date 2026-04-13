@@ -37,8 +37,8 @@ export function ThumbPostHorizontal({titulo, noticia, link, img} : ThumbPostProp
                     <h3>{titulo}</h3>
                     <p>
                         {
-                            noticia.length > 50
-                            ? noticia.slice(0, 50) + '...'
+                            noticia.length > 100
+                            ? noticia.slice(0, 100) + '...'
                             : noticia
                         }
                     </p>

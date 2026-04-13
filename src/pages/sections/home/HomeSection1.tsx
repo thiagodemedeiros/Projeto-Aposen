@@ -1,6 +1,6 @@
 import "./styles/HomeSection1.css"
 import { ThumbPostHorizontal } from "../../../components/ThumbPost"
-import { posts } from "../../../../data/Posts"
+import { News } from "../../../../data/News"
 
 export default function HomeSection1() {
     return(
@@ -13,14 +13,14 @@ export default function HomeSection1() {
             </div>
             <div className="HomeSection1_item_direita">
                 <h5>Notícias</h5>
-                {posts.slice(-3)
+                {News.slice(-3)
                     .reverse()
                     .map((post : any) => (
                     <ThumbPostHorizontal
                         key={post.id}
                         titulo={post.title}
                         noticia={post.content}
-                        link={`/post/${post.id}`}
+                        link={post.link}
                         img={post.img}
                     />
                 ))}

@@ -18,7 +18,7 @@
     justify-content: space-between;
 
     width: 80%;
-    max-width: 800px;
+    max-width: 1200px;
 }
 
 .HomeSection1_item_esquerda {
@@ -70,7 +70,9 @@
     background-color: #f7f7f7;
     padding: 30px 30px;
     border-radius: 30px;
-    width: 350px;
+    width: 60%;
+    max-width: 700px;
+    /* border : 3px solid #ff0000; */
 
     & h5 {
         font-weight: 700;
@@ -84,6 +86,7 @@
         justify-content: center;
         gap: 50px;
         width: 70%;
+        /* border : 3px solid #ff0000; */
     }
 
     .HomeSection1_item_esquerda {
@@ -93,5 +96,6 @@
 
     .HomeSection1_item_direita {
         align-items: center;
+        width: 90%;
     }
 }
