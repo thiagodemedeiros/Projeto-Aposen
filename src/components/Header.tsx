@@ -14,7 +14,7 @@ export default function Header() {
             <div className="Header_itens_menu">
                 <a href="">Oferta 1</a>
                 <a href="">Oferta 2</a>
-                <a href="">Oferta 3</a>
+                <Link to="/sobre-nos">Sobre Nós</Link>
                 {/* <a href="">Oferta 4</a> */}
                 {/* <a href="">Oferta 5</a> */}
                 {/* <a href="">Oferta 6</a> */}

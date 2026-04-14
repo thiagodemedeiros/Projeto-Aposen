@@ -5,6 +5,7 @@ import Post from "./pages/Post";
 import SearchPostByTitle from "./pages/SearchPostByTitle";
 import ScrollToTop from "./components/ScrollToTop";
 import SearchPostByType from "./pages/SearchPostByType";
+import SobreNos from "./pages/SobreNos";
 
 export default function App() {
 
@@ -15,6 +16,7 @@ export default function App() {
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/sobre-nos" element={<SobreNos />} />
             <Route path="/post/:id" element={<Post />} />
             <Route path="/search/:title" element={<SearchPostByTitle />} />
             <Route path="/search/type/:type" element={<SearchPostByType />} />
