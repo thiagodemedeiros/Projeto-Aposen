@@ -1,0 +1,34 @@
+.SearchPostByType {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    & h1 {
+        text-align: center;
+    }
+}
+
+.SearchPostByType_itens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 80%;
+    gap: 30px;
+}
+
+.SearchPostByType_itens_post_thumb {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+    width: 80%;
+    gap: 30px;
+
+    /* border: 2px red solid; */
+}
