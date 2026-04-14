@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./styles/Footer.css"
 
 export default function Footer() {
@@ -5,8 +6,8 @@ export default function Footer() {
     <footer className="Footer">
         <div className="Footer_itens">
             <div className="Footer_coluna">
-                <FooterLink href="#" text="Página Inicial"/>
-                <FooterLink href="#" text="Sobre nós"/>
+                <FooterLink href="" text="Página Inicial"/>
+                <FooterLink href="sobre-nos" text="Sobre nós"/>
                 <FooterLink href="#" text="Serviços"/>
                 <FooterLink href="#" text="Preços"/>
                 <FooterLink href="#" text="Contato"/>
@@ -28,6 +29,6 @@ interface FooterLinkProps {
 
 function FooterLink({href, text} : FooterLinkProps) {
     return(
-        <a href={href}>{text}</a>
+        <Link to={href}>{text}</Link>
     )
 }
