@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom"
 import { posts } from "../../data/Posts"
+import "./styles/Post.css"
 
 export default function Post() {
     const { id } = useParams()
@@ -10,11 +11,13 @@ export default function Post() {
     }
 
     return (
-        <div>
-            <img src={post.img} alt={post.title} />
-            <h1>{post.title}</h1>
-            <h3>{post.type}</h3>
-            <p>{post.content}</p>
+        <div className="Post">
+            <div className="Post_itens">
+                <img src={post.img} alt={post.title} />
+                <h1>{post.title}</h1>
+                <h3>{post.type}</h3>
+                <p>{post.content}</p>
+            </div>
         </div>
     )
 }

@@ -1,0 +1,28 @@
+.Post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+.Post_itens {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 80%;
+    max-width: 1000px;
+    text-align: center;
+    gap: 30px;
+
+    & img {
+        width: 80%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    /* border: 2px red solid; */
+}
