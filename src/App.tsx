@@ -11,7 +11,7 @@ export default function App() {
 
   return (
     <>
-      <Router basename="/Projeto-Aposen">
+      <Router>
       <ScrollToTop />
         <Layout>
           <Routes>
