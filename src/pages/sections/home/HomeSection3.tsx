@@ -6,15 +6,14 @@ export default function HomeSection3() {
     return (
         <div className="HomeSection3">
             <div className="HomeSection3_texto">
-                {posts.slice(-9,-3)
-                    .reverse()
+                {posts.reverse()
                     .map((post : any) => (
                     <ThumbPostVertical
                         key={post.id}
                         titulo={post.title}
                         noticia={post.content}
                         link={`/post/${post.id}`}
-                        img={post.img}
+                        img={post.img1080}
                     />
                 ))}
             </div>

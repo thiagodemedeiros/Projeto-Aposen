@@ -13,10 +13,12 @@ export default function Post() {
     return (
         <div className="Post">
             <div className="Post_itens">
-                <img src={post.img} alt={post.title} />
+                <img src={post.img1920} alt={post.title} />
                 <h1>{post.title}</h1>
                 <h3>{post.type}</h3>
-                <p>{post.content}</p>
+                <p className="whitespace-pre-line">
+                    {post.content}
+                </p>
             </div>
         </div>
     )

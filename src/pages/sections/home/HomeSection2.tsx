@@ -9,10 +9,10 @@ export default function HomeSection2() {
     return (
         <div className="HomeSection2">
             <div className="HomeSection2_container">
-                <Link to="/search/type/tech"><img src={healthCare} alt="" /></Link>
-                <Link to="/search/type/tech"><img src={dollar} alt="" /></Link>
-                <Link to="/search/type/design"><img src={handshake} alt="" /></Link>
-                <Link to="/search/type/design"><img src={balance} alt="" /></Link>
+                <Link to="#"><img src={healthCare} alt="" /></Link>
+                <Link to="#"><img src={dollar} alt="" /></Link>
+                <Link to="#"><img src={handshake} alt="" /></Link>
+                <Link to="#"><img src={balance} alt="" /></Link>
             </div>
         </div>
     );

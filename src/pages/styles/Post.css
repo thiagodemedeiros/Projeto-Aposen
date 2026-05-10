@@ -23,10 +23,14 @@
     gap: 30px;
 
     & img {
-        width: 80%;
+        width: 100%;
         height: auto;
         border-radius: 10px;
     }
 
     /* border: 2px red solid; */
+}
+
+.Post_itens p {
+    white-space: pre-line;
 }
