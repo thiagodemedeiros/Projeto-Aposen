@@ -1,0 +1,49 @@
+.ContatosPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+
+    width: 100%;
+
+    min-height: 100vh;
+    padding: 40px 0px;
+}
+
+.ContatosPageItens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    width: 90%;
+
+    & h3 {
+        font-size: 30px;
+        margin: 0px 0px 60px 0px;
+        text-align: center;
+        color: #e86f17;
+    }
+}
+
+.ContatosPageItensContatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    & h4 {
+        font-size: 26px;
+        margin-bottom: 10px;
+        text-align: center;
+        color: #252525;
+    }
+
+    & p {
+        font-size: 18px;
+        margin: 5px 0px;
+        text-align: center;
+        color: #252525;
+    }
+}
