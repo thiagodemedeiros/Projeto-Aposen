@@ -13,6 +13,8 @@ export default function Header() {
             </Link>
             <div className="Header_itens_menu">
                 <Link to="/sobre-nos">Sobre Nós</Link>
+                <Link to="/parceiros">Parceiros</Link>
+                <Link to="/contatos">Contatos</Link>
             </div>
         </div>
     </header>
