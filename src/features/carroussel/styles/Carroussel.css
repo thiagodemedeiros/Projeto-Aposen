@@ -1,0 +1,71 @@
+.carroussel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+    width: 100%;
+    height: auto;
+
+    overflow: hidden;
+}
+
+.carrousselSetaEsquerda {
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    transform: rotate(180deg);
+    cursor: pointer;
+    z-index: 1;
+    width: 6%;
+    max-width: 5rem;
+    min-width: 1rem;
+}
+
+.carrousselSetaDireita {
+    position: absolute;
+    top: 40%;
+    right: 2%;
+    cursor: pointer;
+    z-index: 1;
+    width: 6%;
+    max-width: 5rem;
+    min-width: 1rem;
+}
+
+.carrousselItemsImg {
+    width: 100%;
+    height: auto;
+}
+
+.slide-next {
+    animation: slideNext 300ms ease;
+}
+
+.slide-prev {
+    animation: slidePrev 300ms ease;
+}
+
+@keyframes slideNext {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slidePrev {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
