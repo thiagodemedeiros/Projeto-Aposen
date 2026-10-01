@@ -16,4 +16,12 @@ export const posts: Post[] = [
         img1080 : "https://i.imgur.com/BL7vsqj.png",
         img1920 : "https://i.imgur.com/uHAZtY5.png"
     },
+    {
+        id: 2,
+        title: "Dia Nacional do Idoso: respeito, cuidado e valorização sempre",
+        type: "",
+        content: "Hoje, 1º de outubro, celebramos o Dia Nacional do Idoso, uma data para reconhecer e valorizar aqueles que carregam consigo histórias, experiências e conhecimentos que atravessam gerações.\n\nEnvelhecer é também acumular conquistas, aprendizados e momentos que fazem parte da nossa história. Por isso, respeito, dignidade, cuidado e qualidade de vida devem estar presentes em todas as fases da vida.\n\nA APOSEN acredita na importância de valorizar nossos idosos, defender seus direitos e contribuir para que essa etapa seja vivida com mais segurança, respeito e bem-estar.\n\nHoje e todos os dias, nosso reconhecimento e carinho a todos os idosos.",
+        img1080 : "https://i.imgur.com/miMb3Tj.jpeg",
+        img1920 : "https://i.imgur.com/Wn2WNHo.png"
+    },
 ]
